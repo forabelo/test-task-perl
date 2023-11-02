@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "e00b0a77-7965-4383-968c-953f2ea8145f",
+		"name": "Http",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12551884"
+	},
+	"item": [
+		{
+			"name": "Get country data by ip",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:8441",
+			"type": "string"
+		}
+	]
+}
